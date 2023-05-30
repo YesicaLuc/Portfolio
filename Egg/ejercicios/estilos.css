@@ -1,0 +1,28 @@
+
+  #divExterno {
+    width: calc(400px + 2 * (30px + 20px));
+    height: calc(200px + 2 * (30px + 20px));
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(84, 155, 96);
+  }
+  
+  #divMedio {
+    margin: 30px;
+    padding: 20px;
+    width: 400px;
+    height: 200px;
+    border: 2px;
+    position: relative;
+    background-color: rgb(81, 99, 150);
+  }
+  
+  #divInterno {
+position: relative;
+width: 400px;
+height: 200px;
+background-color: rgb(204, 204, 204);
+  }
+  
